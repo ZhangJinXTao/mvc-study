@@ -11,6 +11,6 @@ public class HelloCtrl {
 
     @GetMapping("/hello")
     public String hello(){
-        return "hello world";
+        return "hello world!";
     }
 }
